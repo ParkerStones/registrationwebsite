@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_container"> <!-- Corrected class name -->
+            <div class="sign-inANDup">
+                <form action="#" class="sign-inform"> <!-- Changed action to "#" -->
+                    <h2 class="signin-title">Login In</h2>
+                    <img src="login01.png" class="image" alt="" />
+                    <div class="input_field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Enter Your Username" />
+                    </div>
+                    <div class="input_field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Enter Your Password" />
+                    </div>
+                    <input type="submit" value="Login Account" class="btn solid" />
+                    <p class="signin_text">Login via Social Media</p> <!-- Corrected typo -->
+                    <div class="social-media-links">
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="#" class="sign-upform"> <!-- Changed action to "#" -->
+                    <h2 class="signup-title">Create Account</h2>
+                    <img src="signup01.png" class="image" alt="" />
+                    <div class="input_field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Choose a Username" />
+                    </div>
+                    <div class="input_field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email" />
+                    </div>
+                    <div class="input_field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Create a Password" />
+                    </div>
+                    <input type="submit" value="Create Account" class="btn solid" />
+                    <p class="signup_text">Sign-Up via Social Media</p> <!-- Corrected typo -->
+                    <div class="social-media-links">
+                        <a href="" class="social-media-icon"> <!-- Corrected class name -->
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="social-media-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panel_container">
+            <div class="panel panel_left">
+                <div class="content">
+                    <h3>New User?</h3>
+                    <p>
+                        Create Your Account
+                    </p>
+                    <button class="btn transparent" id="sign_up_btn">Sign Up</button>
+                </div>
+            </div>
+            <div class="panel panel_right">
+                <div class="content">
+                    <h3>Already? a User</h3>
+                    <p>
+                        Login into Your Account
+                    </p>
+                    <button class="btn transparent" id="sign_in_btn">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
