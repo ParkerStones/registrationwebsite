@@ -10,5 +10,3 @@ Sign Up Page :-
 
 
 _Valar Morghulis_
-
-Here is the Direct Link of the Website on the INTERNET https://parkerstones.github.io/registrationwebsite/
